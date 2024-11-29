@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, View, Text, TextInput, TouchableOpacity } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 export default function LoginScreen() {
   return (
@@ -53,24 +52,24 @@ const styles = StyleSheet.create({
     height: 40,
     outlineColor: '#4d4d4d',
     width: '100%',
-    borderBottomWidth: 3, // Linha na parte inferior
-    borderBottomColor: '#FFFFFF', // Cor branca para a linha
-    color: '#FFFFFF', // Cor branca para o texto inserido
+    borderBottomWidth: 3,
+    borderBottomColor: '#FFFFFF',
+    color: '#FFFFFF',
     fontSize: 16,
     marginBottom: 60
   },
   button: {
     alignSelf: 'flex-end',
     width: 142,
-    backgroundColor: '#184BFF', // Cor branca para o fundo do botão
+    backgroundColor: '#184BFF', 
     paddingVertical: 10,
     paddingHorizontal: 40,
-    borderRadius: 5, // Bordas arredondadas
+    borderRadius: 5, 
     alignItems: 'center',
     borderRadius: 15
     },
   buttonText: {
-    color: '#FFF', // Texto com cor escura
+    color: '#FFF',
     fontSize: 20,
   },
 });
